@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(169, 215, 233);
+}
+
+.form {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-content {
+    display: block;
+    background-color: hsl(0, 0%, 97%);
+    border-radius: 10px;
+    /* margin-inline: 150px; */
+}
+
+.form-name {
+    padding: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    border-style: none;
+}
+
+.flex {
+    /* width: 50%; */
+    display: flex;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.aic {
+    align-items: center;
+}
+
+input {
+    width: 31%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    /* margin-top: 0; */
+    margin: 1px;
+    padding: 0;
+}
+
+.tar label {
+    margin-right: 10px;
+    width: 50%;
+    text-align: right;
+}
+
+.day {
+    width: 100%;
+    text-align: left;
+}
+
+.aifs {
+    align-items: flex-start;
+}
+
+.flex-block {
+    display: block;
+}
+
+.tal {
+    text-align: left;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}

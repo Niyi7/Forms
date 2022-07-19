@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Vibes Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="form">
+        <div class="hero-header">
+            <h1>Good Vibes Form</h1>
+        </div>
+        <div class="form-content">
+            <p class="form-head">
+                Tell us something positive that happened to you today.
+            </p>
+
+            <div class="tar">
+                <div class="form__name flex">
+                    <label for="name">Name</label>
+                    <input type="text" class="name" placeholder="Enter your name" />
+                </div>
+                <div class="form__mail flex">
+                    <label for="email">Email</label>
+                    <input type="email" class="email" placeholder="Enter your email address" />
+                </div>
+                <div class="form__scale flex p10 aic tar">
+                    <label for="scale">On a scale of 1-10,how good was it?</label>
+                    <input type="number" class="scale" placeholder="Enter a number between 1-10" />
+                </div>
+            </div>
+            <div class="form__select flex p10 aic tar">
+                <label for="">Where did it happen?</label>
+                <select name="" id="">
+						<option value="">At Home</option>
+						<option value="">On my commute</option>
+						<option value="">At work</option>
+						<option value="">On the Street</option>
+						<option value="">Other</option>
+					</select>
+            </div>
+            <div class="form__time-of-day flex p10 aic tar aifs">
+                <label for="time-of-day">At what time of the day did it happen?
+					</label>
+                <form class="flex-block tal">
+                    <div class="flex aic">
+                        <input type="radio" id="morning" name="time-of-day" value="Morning" />
+                        <label for="morning" class="day">Morning</label><br />
+                    </div>
+                    <div class="flex aic">
+                        <input type="radio" id="afternoon" name="time-of-day" value="Afternoon" />
+                        <label for="afternoon" class="day">Afternoon</label><br />
+                    </div>
+                    <div class="flex aic">
+                        <input type="radio" id="evening" name="time-of-day" value="Evening" />
+                        <label for="evening" class="day">Evening</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form__checkbox flex p10 aic tar aifs">
+                <label for="checkbox">What emotions did you experience? (Select all that apply)</label
+					>
+					<form action="" class="flex-block tal">
+						<input type="checkbox" name="excited" id="excited" /><label
+							for="excited"
+							>Excited</label
+						>
+						<br /><input type="checkbox" name="humbled" id="humbled" /><label
+							for="humbled"
+							>Humbled</label
+						><br />
+						<input type="checkbox" name="elated" id="elated" /><label
+							for="elated"
+							>Elated</label
+						><br /><input type="checkbox" name="loved" id="loved" /><label
+							for="loved"
+							>Loved</label
+						><br /><input
+							type="checkbox"
+							name="enthusiastic"
+							id="enthusiastic"
+						/><label for="enthusiastic">Enthusiastic</label>
+                </form>
+            </div>
+            <div class="form__texbox flex p10 aic tar">
+                <label for="textbox">Please describe your positive experience.</label
+					><input type="textbox" class="textbox" />
+				</div>
+
+				<div><input type="button" value="submit" class="btn" /></div>
+			</div>
+		</div>
+	</body>
+</html>
