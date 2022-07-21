@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(169, 215, 233);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+.form {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-content {
+    display: block;
+    background-color: hsl(0, 0%, 97%);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form-name {
+    padding: 15px;
+}
+
+/* .jcc {
+    justify-content: center;
+} */
+
+.btn {
+    font-size: 1em;
+    background-color: #6ba2ce;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: background-color 2s ease;
+    -webkit-transition: background-color 2s ease;
+    -moz-transition: background-color 2s ease;
+    -ms-transition: background-color 2s ease;
+    -o-transition: background-color 2s ease;
+}
+
+.form .btn:hover {
+    background-color: #082f50;
+    color: white;
+}
+
+.hero2 {
+    border-radius: 55%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    width: 60%;
+    -webkit-border-radius: 55%;
+    -moz-border-radius: 55%;
+    -ms-border-radius: 55%;
+    -o-border-radius: 55%;
+}
+
+.flex {
+    /* width: 50%; */
+    display: flex;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.m10 {
+    margin: 10px;
+    -webkit-margin-collapse: discard;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.aic {
+    align-items: center;
+}
+
+#textarea {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.name,
+.email,
+.scale {
+    border: 1px solid #c0c0c0;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.checkbx {
+    padding: 10px;
+    padding-top: 0;
+    /* margin-left: 5px; */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.tar label {
+    margin-right: 10px;
+    width: 50%;
+    text-align: right;
+}
+
+.day {
+    width: 100%;
+    text-align: left;
+}
+
+.aifs {
+    align-items: flex-start;
+}
+
+.flex-block {
+    display: block;
+}
+
+.tal {
+    text-align: left;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}
